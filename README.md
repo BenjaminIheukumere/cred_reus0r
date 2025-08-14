@@ -51,11 +51,11 @@ Leave Username empty (just press enter) for anonymous scan.
 ## Examples
 Single IP:
   ```bash
-./creds_reus0r 10.10.10.10
+./creds_reus0r.py 10.10.10.10
 ```
 IP-Range:
 ```bash
-./creds_reus0r 10.10.10.0/24
+./creds_reus0r.py 10.10.10.0/24
 ```
 
 ## Notes
