@@ -305,6 +305,7 @@ def main():
         return (ip, s, ok, msg)
 
     max_workers = 64
+    print(f"{C.OKCYAN}")
     with ThreadPoolExecutor(max_workers=max_workers) as ex:
         futures = [ex.submit(worker, ip, fn, name) for (ip, name, fn) in tasks]
         with tqdm(total=len(futures), desc="Testing", unit="check") as bar:
@@ -312,7 +313,8 @@ def main():
                 ip, s, ok, msg = fut.result()
                 results.append((ip, s, ok, msg))
                 bar.update(1)
-
+    print(f"{C.RESET}")
+    
     # Filtering
     filtered = [r for r in results if (r[2] or not success_only)]
 
