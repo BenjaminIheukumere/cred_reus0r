@@ -70,6 +70,9 @@ IP-Range:
 
 Content of the output file will be printed on screen, when scan is done, too, if shares were found.
 
+## Modification
+If you want to change the number of paralell threads, search for "max_workers" and change it from "64" to your desired number
+
 ## Screenshot of Creds Reus0r in action
 ![Creds Reus0r in action](creds_reus0r.png)
 
