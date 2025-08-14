@@ -37,7 +37,7 @@ pip install tqdm impacket paramiko ldap3 pywinrm pymssql
 2. Clone this repository:
   ```bash
 git clone https://github.com/BenjaminIheukumere/creds_reus0r
-cd creds_reus0r
+cd creds_reus0r.py
 chmod +x creds_reus0r
 ```
 ## Usage
