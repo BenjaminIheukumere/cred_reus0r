@@ -42,7 +42,7 @@ chmod +x creds_reus0r.py
 ```
 ## Usage
   ```bash
-./creds_reus0r <IP-RANGE>
+./creds_reus0r.py <IP-RANGE>
 ```
 
 Enter Username & Password for authenticated scan.
